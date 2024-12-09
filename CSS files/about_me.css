@@ -25,7 +25,7 @@ header {
             display: inline-flex;
             justify-content: space-around;
             align-items: center;
-            width: 30%;
+            width: 40%;
             font-size: 15px;
         }
         .topLeft a {
@@ -46,15 +46,6 @@ header {
             right: 10px;
         }
 
-        .topRight .linked {
-            width: 32px;
-            margin-left: 10%;
-        }
-        .topRight .linked:hover {
-            transform: scale(1.1); 
-            cursor: pointer;
-        }
-
         .topRight .github{
             width: 48px;
             margin-left: 5%;
@@ -63,34 +54,34 @@ header {
             transform: scale(1.1); 
             cursor: pointer;
         }
-
+  
         .topRight .twitter {
             width: 55px;
-            margin-left: 1%;
+            margin-left: 20px;
         }
         .topRight .twitter:hover {
             transform: scale(1.1); 
             cursor: pointer;
         }
-
+  
         .topRight .gmail {
             width: 35px;
-            margin-left: 5%;
+            margin-left: 25px;
         }
         .topRight .gmail:hover {
             transform: scale(1.1); 
             cursor: pointer;
         }
-
+  
         .topRight .insta {
             width: 27px;
-            margin-left: 6%;
+            margin-left: 33px;
         }
         .topRight .insta:hover {
             transform: scale(1.1); 
             cursor: pointer;
         }
-
+  
 main {
     display: flex;
     flex-direction: column;
@@ -135,8 +126,6 @@ footer {
     width: 100%;
     background-color: rgb(97, 97, 115);
     align-content: center;
-
-  
 }
 
 footer p {
@@ -144,5 +133,4 @@ footer p {
     font-weight: 400;
     margin-left: 5%;
     width: 100%;
-
 }
