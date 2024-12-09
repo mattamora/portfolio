@@ -40,9 +40,8 @@ header {
 
         .topRight {
             display: inline-flex;
-            justify-content: space-around; 
             align-items: center;
-            width: 25%;
+            width: 30%;
             height: 100%;
             position: absolute;
             right: 10px;
@@ -50,14 +49,25 @@ header {
 
         .topRight .linked {
             width: 32px;
+            margin-left: 10%;
         }
         .topRight .linked:hover {
             transform: scale(1.1); 
             cursor: pointer;
         }
 
+        .topRight .github{
+            width: 48px;
+            margin-left: 5%;
+        }
+        .topRight .github:hover {
+            transform: scale(1.1); 
+            cursor: pointer;
+        }
+
         .topRight .twitter {
             width: 55px;
+            margin-left: 1%;
         }
         .topRight .twitter:hover {
             transform: scale(1.1); 
@@ -66,6 +76,7 @@ header {
 
         .topRight .gmail {
             width: 35px;
+            margin-left: 5%;
         }
         .topRight .gmail:hover {
             transform: scale(1.1); 
@@ -74,6 +85,7 @@ header {
 
         .topRight .insta {
             width: 27px;
+            margin-left: 6%;
         }
         .topRight .insta:hover {
             transform: scale(1.1); 
@@ -107,13 +119,13 @@ main {
             flex-direction: column;
             justify-content: center;
             width: 40%;
-            
         }
 
         .middle h1 {
-            margin-top: -20%;
+            margin-top: -10%;
             text-align: center;
             margin-bottom: 10%;
+            font-size: 50px;
         }
 
         .middle img {
@@ -143,33 +155,19 @@ main {
         }
 
 footer {
+    display: flex;
     position: absolute;
     bottom: -5%;
     height: 50px;
     width: 100%;
-    color: rgb(97, 97, 115);
     background-color: rgb(97, 97, 115);
+    align-content: center;
 }
-/*
-        main h1 {
-            position: absolute;
-            top: 15%;
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 42px;
-            z-index: -1;
-        }
 
-        main p {
-            position: absolute;
-            top: 30%;
-            left: 50%;
-            transform: translateX(-50%);
-            z-index: -1;
+footer p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 5%;
+    width: 100%;
 
-            height: 300px;
-            width: 30%;
-            border: 1px solid red;
-        }
-*/
-
+}
